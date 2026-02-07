@@ -26,7 +26,6 @@
 - **Icons**: MUI Icons
 - **Charts**: Recharts
 - **Routing**: React Router v6
-- **Styling**: Emotion (CSS-in-JS) & CSS Modules
 
 ---
 
@@ -36,8 +35,6 @@
 
    ```bash
    git clone [https://github.com/your-username/drawer-app.git](https://github.com/your-username/drawer-app.git)
-
-   Перейдіть у папку проєкту:
 
    ```
 
@@ -52,12 +49,3 @@
 ```bash
   npm run dev
 ```
-
-📂 Структура проєкту
-Plaintext
-src/
-├── components/ # Перевикористовувані компоненти (Header, Footer, Drawer)
-├── pages/ # Сторінки (Home, Overview, Users, Reports)
-├── layouts/ # RootLayout із сіткою (Grid)
-├── assets/ # Статичні файли (зображення, логотипи)
-└── App.jsx # Конфігурація роутингу

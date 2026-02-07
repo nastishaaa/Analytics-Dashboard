@@ -10,7 +10,7 @@ export default function HomePage() {
                     { title: 'New users', value: '1,240', color: '#2196f3' },
                     { title: 'Activity', value: '432', color: '#ff9800' }
                 ].map((item) => (
-                    <Grid item xs={12} sm={4} key={item.title}>
+                    <Grid size={{ xs: 12, sm: 4 }} key={item.title}>
                         <Card sx={{ borderLeft: `6px solid ${item.color}`, boxShadow: 3 }}>
                             <CardContent>
                                 <Typography color="textSecondary" gutterBottom>{item.title}</Typography>

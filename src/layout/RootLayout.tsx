@@ -25,7 +25,7 @@ export default function RootLayout() {
         <Box sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
             <Header handleClick={handleClick} isOpen={isOpen} />
 
-            <Box component="main" sx={{ flexGrow: 1, display: 'flex', overflow: 'hidden' }}>
+            <Box component="main" sx={{ flexGrow: 1, display: 'flex', overflow: 'hidden', marginTop: '64px'}}>
                 <Grid container sx={{ flexGrow: 1 }}>
 
                     <Grid

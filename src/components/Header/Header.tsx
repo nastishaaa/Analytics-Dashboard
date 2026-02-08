@@ -11,7 +11,7 @@ interface HeaderProps {
 
 export default function Header({handleClick, isOpen}: HeaderProps) {
     return (
-        <AppBar position="sticky" sx={{ backgroundColor: '#fff', color: '#333', boxShadow: '0 2px 10px rgba(0,0,0,0.05)' }}>
+        <AppBar position="fixed" sx={{ backgroundColor: '#fff', color: '#333', boxShadow: '0 2px 10px rgba(0,0,0,0.05)' }}>
             <Container maxWidth="lg">
                 <Toolbar sx={{ justifyContent: 'space-between', px: { xs: 0 } }}>
 
